@@ -1,0 +1,48 @@
+.volume{
+    background: #A0A4A8;
+    box-shadow: 0px 8px 16px rgba(160, 164, 168, 0.35);
+    border-radius: 6px;
+    margin-left: 7%;
+    margin-top: 10%;
+    height: 2.5em;
+    color: white;
+    width: 10em;
+}
+.postion{
+    display: grid;
+    grid-template-columns: 80% 20%;
+}
+.cross-btn{
+    border-radius: 50%;
+    margin-top: 35%;
+    font-weight: bold;
+    margin-left: 15%;
+    background: #C4C4C4;
+    height: 4em;
+    width: 4em;
+    border: white;
+}
+.heading-network{
+    margin-left: 7%;
+    margin-top: 5%;
+}
+.data{
+    margin-left: 7%;
+}
+.slidecontainer {
+    width: 100%;
+    margin-left: 7%;
+  }
+.network-range{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-left: 7%;
+    margin-right: 50%
+}  
+.slider{
+    width: 22%;
+    margin-left: 1%;
+}
+.position-btn{
+    margin-top: -21%;
+}

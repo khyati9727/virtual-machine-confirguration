@@ -1,0 +1,40 @@
+.optionsrow{
+    display:grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    justify-content: space-around;
+    align-content: center;
+    margin-left: 4%;
+}
+.activeblock{
+    align-content: center;
+    margin-top: 15%;
+    background: #FFFFFF;
+    color:#3398FF;
+    border: 2px solid #3398FF;
+    box-sizing: border-box;
+    border-radius: 3px;
+    height: 70%;
+    text-align: center;
+}
+.block{
+    color: black;
+    align-content: center;
+    margin-top: 15%;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.29);
+    box-sizing: border-box;
+    border-radius: 3px;
+    height: 70%;
+    text-align: center;
+}
+.headingform2{
+    margin-left: 6%;
+    margin-top:5%;
+    
+}
+.menurow{
+    display: grid;
+    grid-template-columns: 25% 25% 10%;
+    justify-content: space-around;
+    color: #3398FF;
+}

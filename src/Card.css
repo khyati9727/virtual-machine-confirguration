@@ -1,0 +1,58 @@
+.card{
+    display: grid;
+    grid-template-columns: 20% 65% 15%;
+    height: 9.5em;
+    width: 97%;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+  }
+  .cardimg{
+
+    margin: 10% 20% 10% 20%;
+    background: #C4C4C4;
+    border-radius: 4px;
+}
+.cardname{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 150%;
+line-height: 39px;
+/* identical to box height */
+
+
+color: #000000;
+}
+.cardDescription{
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 100%;
+line-height: 20px;
+/* identical to box height */
+
+
+color: #000000;
+}
+
+.cardpart3{
+    display: grid;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+    margin-top: 15%;
+}
+
+.selectbuttonposition{
+grid-row: 4/5;
+}
+
+.button{
+    align-content: center;
+    height: 100%;
+    width: 80%;
+    text-align: center;
+    background: #007EFF;
+    border-radius: 8px;
+    color: white;
+}

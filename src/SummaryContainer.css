@@ -1,0 +1,15 @@
+.edit{
+    justify-content: center;
+    display: flex;
+    align-self: center;
+    color: blue;
+}
+.heading{
+    margin-left: 8%;
+}
+.title-summary{
+    display: grid;
+    grid-template-columns:90% 10%;
+    justify-content: space-evenly;
+    font-size: large;
+}

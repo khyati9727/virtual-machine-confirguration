@@ -1,0 +1,113 @@
+.app{
+  font-family: 'Montserrat', sans-serif;
+}
+.header{
+  display: flex;
+  /* position: absolute; */
+  /* width: 1920px; */
+  height: 70px;
+  left: 0px;  
+  background: #FFFFFF;
+  box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.2);
+}
+.headerText{
+  position: absolute;
+  left: 45%;
+  /* top: calc(50% - 51px/2 - 503.5px); */
+  justify-content: center;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 42px;
+  top: 7px;
+  margin: auto;
+  text-align: center;
+  align-content: center;
+  color: #25282B;
+}
+
+.pageparts{
+  display: grid;
+  grid-template-columns: 75% 25%;
+}
+
+.titlerow{
+  display: grid;
+  grid-template-columns: 85% 15%;
+}
+
+.title{
+  display: flex;
+  justify-content: flex-start;
+  height: 54px;
+  /* margin-left: 6%; */
+  font-family: Montserrat;
+  margin-left: 7%;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2.5em;
+  line-height: 54px;
+  color: #000000;
+  }
+
+.menubox{
+  align-self: center;
+  display: flex;
+  color:#007EFF;
+  flex-flow: column;
+}
+.menu{    
+  margin-right: 17%;
+  color: #007EFF;
+  height: 40px;
+  background: #FFFFFF;
+  border: 1px solid #007EFF;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+.cardsArrangement{
+  align-content: space-between;
+  margin-top:1%;
+  grid-column: 2/3;
+}
+.statusbar{
+  display: grid;
+  text-align: center;  
+  grid-template-columns: 14% 19% 24% 14% 14% 7%;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left:6%
+}
+.statusblock{
+  
+display: flex;
+flex-direction: column;
+background: #FFFFFF;
+box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
+
+}
+
+.activestatusblock{
+  display: flex;
+  flex-direction: column;
+  color:white;
+  background: #007EFF;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
+  }
+
+  .row{
+    display: grid;
+    grid-template-columns: 6% 94%;
+    margin-top: 1%;
+  }
+  
+  .option{
+    color: #25282B;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+  }
+  option:hover{
+    background: #007EFF;
+    opacity: 0.04;
+  }
+ 
